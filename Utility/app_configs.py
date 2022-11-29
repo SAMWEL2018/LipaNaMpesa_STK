@@ -8,3 +8,4 @@ class Configs:
         self.stk_request_endpoint = os.getenv("STK_REQUEST_ENDPOINT")
         self.callBack = os.getenv("CALLBACK_ENDPOINT")
         self.logsDir = os.getenv("LOG_FILE_DIR")
+        self.dbUrl = os.getenv("DB_URL")
