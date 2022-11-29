@@ -1,3 +1,5 @@
+import json
+
 from flask import Flask
 from controller.api_controller import API
 from flask import request
@@ -20,11 +22,15 @@ def index():
 def pay():
     data = request.get_json()
     appLog.log(1, "Pay Request : " + str(data))
-    return api.mpesa_stk_api_controller(data)
+    res = api.mpesa_stk_api_controller(data)
+    appLog.log(1, "Pay Response : " + str(res))
+    return res
 
 
 @app.route('/callback', methods=['POST'])
 def callback():
+    data = request.get_json()
+    appLog.log(1, "Callback Request : " + str(data))
     return api.incoming()
 
 

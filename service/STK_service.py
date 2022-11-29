@@ -4,6 +4,7 @@ from datetime import datetime
 import requests
 from flask import request
 from utility.app_configs import Configs
+import utility.app_logs as appLog
 
 
 class StkService:
@@ -33,7 +34,7 @@ class StkService:
             "AccountReference": phone,
             "TransactionDesc": "Trial Txn"
         }
-
+        appLog.log(1, 'Request to Safaricom: '+str(data))
         res = requests.post(self.cfg.stk_request_endpoint, json=data, headers=headers)
         return res.json()
 
