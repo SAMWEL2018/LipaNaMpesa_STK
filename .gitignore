@@ -1,0 +1,2 @@
+#Ignore since it might contain some secrets
+#.env
