@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from DB.entity import ClientData, Transaction, base
-from utility.app_configs import Configs as cfg
+from Utility.app_configs import Configs as cfg
 from dotenv import load_dotenv
 
 load_dotenv()

@@ -3,8 +3,8 @@ from datetime import datetime
 
 import requests
 from flask import request
-from utility.app_configs import Configs
-import utility.app_logs as appLog
+from Utility.app_configs import Configs
+import Utility.app_logs as appLog
 
 
 class StkService:
@@ -30,7 +30,7 @@ class StkService:
             "PartyA": phone,
             "PartyB": "639058",
             "PhoneNumber": phone,
-            "CallBackURL": self.cfg.callBack,
+            "CallBackURL": self.cfg.callBack+"/callback",
             "AccountReference": phone,
             "TransactionDesc": "Trial Txn"
         }

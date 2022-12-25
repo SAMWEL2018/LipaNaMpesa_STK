@@ -1,0 +1,118 @@
+2022-11-30 00:57:02,726 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 00:57:02,734 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:57:02,868 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 00:57:02,873 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDA1NzAy', 'Timestamp': '20221130005702', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 00:57:02,881 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:57:03,236 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 00:57:03,240 - INFO -  Pay Response : {'MerchantRequestID': '15617-35042185-1', 'CheckoutRequestID': 'ws_CO_30112022005734981712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 00:57:03,243 - INFO -  127.0.0.1 - - [30/Nov/2022 00:57:03] "POST /pay HTTP/1.1" 200 -
+2022-11-30 00:57:31,351 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 00:57:31,356 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:57:31,505 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 00:57:31,510 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDA1NzMx', 'Timestamp': '20221130005731', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 00:57:31,517 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:57:32,317 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 325
+2022-11-30 00:57:32,322 - INFO -  Pay Response : {'MerchantRequestID': '118502-35087187-1', 'CheckoutRequestID': 'ws_CO_30112022005803965712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 00:57:32,324 - INFO -  127.0.0.1 - - [30/Nov/2022 00:57:32] "POST /pay HTTP/1.1" 200 -
+2022-11-30 00:58:43,748 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 00:58:43,753 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:58:43,880 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 00:58:43,883 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDA1ODQz', 'Timestamp': '20221130005843', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 00:58:43,887 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:58:44,179 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 00:58:44,183 - INFO -  Pay Response : {'MerchantRequestID': '53293-34532314-1', 'CheckoutRequestID': 'ws_CO_30112022005915920712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 00:58:44,185 - INFO -  127.0.0.1 - - [30/Nov/2022 00:58:44] "POST /pay HTTP/1.1" 200 -
+2022-11-30 00:59:31,792 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 00:59:31,800 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:59:31,897 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 00:59:31,900 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDA1OTMx', 'Timestamp': '20221130005931', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 00:59:31,904 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 00:59:32,205 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 323
+2022-11-30 00:59:32,209 - INFO -  Pay Response : {'MerchantRequestID': '6098-35074973-1', 'CheckoutRequestID': 'ws_CO_30112022010003931712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 00:59:32,211 - INFO -  127.0.0.1 - - [30/Nov/2022 00:59:32] "POST /pay HTTP/1.1" 200 -
+2022-11-30 08:52:41,867 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 08:52:41,967 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 08:52:42,283 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 08:52:42,287 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDg1MjQy', 'Timestamp': '20221130085242', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 08:52:42,295 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 08:52:42,549 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 323
+2022-11-30 08:52:42,554 - INFO -  Pay Response : {'MerchantRequestID': '5478-36205608-1', 'CheckoutRequestID': 'ws_CO_30112022085314697712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 08:52:42,556 - INFO -  127.0.0.1 - - [30/Nov/2022 08:52:42] "POST /pay HTTP/1.1" 200 -
+2022-11-30 08:59:57,171 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 08:59:57,178 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 08:59:57,320 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 08:59:57,325 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDg1OTU3', 'Timestamp': '20221130085957', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 08:59:57,332 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 08:59:57,656 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 08:59:57,661 - INFO -  Pay Response : {'MerchantRequestID': '32283-37467291-1', 'CheckoutRequestID': 'ws_CO_30112022090029754712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 08:59:57,665 - INFO -  127.0.0.1 - - [30/Nov/2022 08:59:57] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:02:12,024 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:02:12,030 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:02:12,135 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:02:12,141 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwMjEy', 'Timestamp': '20221130090212', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:02:12,146 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:02:12,439 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 323
+2022-11-30 09:02:12,443 - INFO -  Pay Response : {'MerchantRequestID': '8504-36193809-1', 'CheckoutRequestID': 'ws_CO_30112022090244556712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:02:12,446 - INFO -  127.0.0.1 - - [30/Nov/2022 09:02:12] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:02:19,777 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '8504-36193809-1', 'CheckoutRequestID': 'ws_CO_30112022090244556712321806', 'ResultCode': 1032, 'ResultDesc': 'Request cancelled by user'}}}
+2022-11-30 09:02:19,779 - INFO -  127.0.0.1 - - [30/Nov/2022 09:02:19] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:06:58,866 - INFO -  Pay Request : {'phone': '254725314691', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:06:58,870 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:06:59,123 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:06:59,128 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwNjU5', 'Timestamp': '20221130090659', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254725314691', 'PartyB': '639058', 'PhoneNumber': '254725314691', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254725314691', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:06:59,133 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:06:59,868 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 09:06:59,874 - INFO -  Pay Response : {'MerchantRequestID': '53742-37887220-1', 'CheckoutRequestID': 'ws_CO_30112022090731762725314691', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:06:59,876 - INFO -  127.0.0.1 - - [30/Nov/2022 09:06:59] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:07:30,664 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '53742-37887220-1', 'CheckoutRequestID': 'ws_CO_30112022090731762725314691', 'ResultCode': 1037, 'ResultDesc': 'DS timeout user cannot be reached'}}}
+2022-11-30 09:07:30,666 - INFO -  127.0.0.1 - - [30/Nov/2022 09:07:30] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:07:32,558 - INFO -  Pay Request : {'phone': '254725314691', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:07:32,565 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:07:32,712 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:07:32,717 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwNzMy', 'Timestamp': '20221130090732', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254725314691', 'PartyB': '639058', 'PhoneNumber': '254725314691', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254725314691', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:07:32,734 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:07:33,142 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 09:07:33,147 - INFO -  Pay Response : {'MerchantRequestID': '32592-37523212-1', 'CheckoutRequestID': 'ws_CO_30112022090805284725314691', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:07:33,149 - INFO -  127.0.0.1 - - [30/Nov/2022 09:07:33] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:07:35,120 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '32592-37523212-1', 'CheckoutRequestID': 'ws_CO_30112022090805284725314691', 'ResultCode': 1037, 'ResultDesc': 'DS timeout user cannot be reached'}}}
+2022-11-30 09:07:35,122 - INFO -  127.0.0.1 - - [30/Nov/2022 09:07:35] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:07:53,231 - INFO -  Pay Request : {'phone': '254725314691', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:07:53,235 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:07:53,381 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:07:53,385 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwNzUz', 'Timestamp': '20221130090753', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254725314691', 'PartyB': '639058', 'PhoneNumber': '254725314691', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254725314691', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:07:53,390 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:07:53,727 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 09:07:53,733 - INFO -  Pay Response : {'MerchantRequestID': '59552-35537356-1', 'CheckoutRequestID': 'ws_CO_30112022090825815725314691', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:07:53,734 - INFO -  127.0.0.1 - - [30/Nov/2022 09:07:53] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:07:55,556 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '59552-35537356-1', 'CheckoutRequestID': 'ws_CO_30112022090825815725314691', 'ResultCode': 1037, 'ResultDesc': 'DS timeout user cannot be reached'}}}
+2022-11-30 09:07:55,558 - INFO -  127.0.0.1 - - [30/Nov/2022 09:07:55] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:08:20,044 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:08:20,049 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:08:21,174 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:08:21,179 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwODIx', 'Timestamp': '20221130090821', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:08:21,185 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:08:22,211 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 09:08:22,216 - INFO -  Pay Response : {'MerchantRequestID': '53293-34999194-1', 'CheckoutRequestID': 'ws_CO_30112022090854205712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:08:22,219 - INFO -  127.0.0.1 - - [30/Nov/2022 09:08:22] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:08:53,039 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '53293-34999194-1', 'CheckoutRequestID': 'ws_CO_30112022090854205712321806', 'ResultCode': 1037, 'ResultDesc': 'DS timeout user cannot be reached'}}}
+2022-11-30 09:08:53,043 - INFO -  127.0.0.1 - - [30/Nov/2022 09:08:53] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:09:45,522 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:09:45,529 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:09:45,667 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:09:45,673 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkwOTQ1', 'Timestamp': '20221130090945', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:09:45,677 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:09:45,998 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 323
+2022-11-30 09:09:46,002 - INFO -  Pay Response : {'MerchantRequestID': '6096-35556786-1', 'CheckoutRequestID': 'ws_CO_30112022091018097712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:09:46,005 - INFO -  127.0.0.1 - - [30/Nov/2022 09:09:46] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:09:54,612 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '6096-35556786-1', 'CheckoutRequestID': 'ws_CO_30112022091018097712321806', 'ResultCode': 0, 'ResultDesc': 'The service request is processed successfully.', 'CallbackMetadata': {'Item': [{'Name': 'Amount', 'Value': 1}, {'Name': 'MpesaReceiptNumber', 'Value': 'QKU4XUSNY6'}, {'Name': 'Balance'}, {'Name': 'TransactionDate', 'Value': 20221130091026}, {'Name': 'PhoneNumber', 'Value': 254712321806}]}}}}
+2022-11-30 09:09:54,614 - INFO -  127.0.0.1 - - [30/Nov/2022 09:09:54] "POST /callback HTTP/1.1" 200 -
+2022-11-30 09:11:10,051 - INFO -  Pay Request : {'phone': '254725314691', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-30 09:11:10,058 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:11:10,389 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-30 09:11:10,393 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTMwMDkxMTEw', 'Timestamp': '20221130091110', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254725314691', 'PartyB': '639058', 'PhoneNumber': '254725314691', 'CallBackURL': 'https://53ed-197-248-58-101.eu.ngrok.io/callback', 'AccountReference': '254725314691', 'TransactionDesc': 'Trial Txn'}
+2022-11-30 09:11:10,399 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-30 09:11:10,669 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-30 09:11:10,675 - INFO -  Pay Response : {'MerchantRequestID': '63278-35573256-1', 'CheckoutRequestID': 'ws_CO_30112022091142821725314691', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-30 09:11:10,676 - INFO -  127.0.0.1 - - [30/Nov/2022 09:11:10] "POST /pay HTTP/1.1" 200 -
+2022-11-30 09:11:24,322 - INFO -  Callback Request : {'Body': {'stkCallback': {'MerchantRequestID': '63278-35573256-1', 'CheckoutRequestID': 'ws_CO_30112022091142821725314691', 'ResultCode': 0, 'ResultDesc': 'The service request is processed successfully.', 'CallbackMetadata': {'Item': [{'Name': 'Amount', 'Value': 1}, {'Name': 'MpesaReceiptNumber', 'Value': 'QKU6XUWI6M'}, {'Name': 'Balance'}, {'Name': 'TransactionDate', 'Value': 20221130091155}, {'Name': 'PhoneNumber', 'Value': 254725314691}]}}}}
+2022-11-30 09:11:24,324 - INFO -  127.0.0.1 - - [30/Nov/2022 09:11:24] "POST /callback HTTP/1.1" 200 -

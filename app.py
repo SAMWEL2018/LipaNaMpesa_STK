@@ -4,7 +4,7 @@ from flask import Flask
 from controller.api_controller import API
 from flask import request
 from dotenv import load_dotenv
-import utility.app_logs as appLog
+import Utility.app_logs as appLog
 
 load_dotenv(override=False, dotenv_path='.env')  # Configuration For the whole application use
 

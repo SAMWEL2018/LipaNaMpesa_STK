@@ -1,7 +1,7 @@
 import logging
 import os
 from datetime import datetime
-from utility.app_configs import Configs as cfg
+from Utility.app_configs import Configs as cfg
 
 
 def log(level, msg):

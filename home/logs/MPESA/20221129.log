@@ -1,0 +1,32 @@
+2022-11-29 17:33:51,965 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-29 17:33:51,967 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:33:52,152 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-29 17:33:52,155 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTI5MTczMzUy', 'Timestamp': '20221129173352', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-29 17:33:52,157 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:33:52,478 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-29 17:33:52,481 - INFO -  Pay Response : {'MerchantRequestID': '12414-35213438-1', 'CheckoutRequestID': 'ws_CO_29112022173423203712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-29 17:33:52,482 - INFO -  127.0.0.1 - - [29/Nov/2022 17:33:52] "POST /pay HTTP/1.1" 200 -
+2022-11-29 17:36:17,647 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-29 17:36:17,648 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:36:17,795 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-29 17:36:17,798 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTI5MTczNjE3', 'Timestamp': '20221129173617', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-29 17:36:17,799 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:36:18,199 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-29 17:36:18,203 - INFO -  Pay Response : {'MerchantRequestID': '12413-35221168-1', 'CheckoutRequestID': 'ws_CO_29112022173648818712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-29 17:36:18,204 - INFO -  127.0.0.1 - - [29/Nov/2022 17:36:18] "POST /pay HTTP/1.1" 200 -
+2022-11-29 17:37:50,603 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-29 17:37:50,604 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:37:50,819 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-29 17:37:50,823 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTI5MTczNzUw', 'Timestamp': '20221129173750', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://webhook.site/ffca2f05-2b8d-4a5e-854c-0a8841840a57', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-29 17:37:50,824 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:37:51,169 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 323
+2022-11-29 17:37:51,171 - INFO -  Pay Response : {'MerchantRequestID': '9963-34077519-1', 'CheckoutRequestID': 'ws_CO_29112022173821867712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-29 17:37:51,172 - INFO -  127.0.0.1 - - [29/Nov/2022 17:37:51] "POST /pay HTTP/1.1" 200 -
+2022-11-29 17:39:29,561 - INFO -  Pay Request : {'phone': '254712321806', 'amount': 1, 'consumer_key': 'm1IPudZnoY9CCjigSKStCNr3tJeFN9r9', 'consumer_secret': 'A1KCaBqAT4VsPtZ6'}
+2022-11-29 17:39:29,567 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:39:29,732 - DEBUG -  https://api.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 113
+2022-11-29 17:39:29,737 - INFO -  Request to Safaricom: {'BusinessShortCode': '779208', 'Password': 'Nzc5MjA4NDhhY2Y3NDlkMjcxOGE1ZGE2NGVkMjNjNWNkZWJlN2M3NzY3MDhjYWQ3ZWFmYjBkZmNmNjBkOWZiYzdhZWFhZTIwMjIxMTI5MTczOTI5', 'Timestamp': '20221129173929', 'TransactionType': 'CustomerBuyGoodsOnline', 'Amount': 1, 'PartyA': '254712321806', 'PartyB': '639058', 'PhoneNumber': '254712321806', 'CallBackURL': 'https://27c6-197-248-58-101.eu.ngrok.io', 'AccountReference': '254712321806', 'TransactionDesc': 'Trial Txn'}
+2022-11-29 17:39:29,744 - DEBUG -  Starting new HTTPS connection (1): api.safaricom.co.ke:443
+2022-11-29 17:39:30,187 - DEBUG -  https://api.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 324
+2022-11-29 17:39:30,191 - INFO -  Pay Response : {'MerchantRequestID': '12415-35231450-1', 'CheckoutRequestID': 'ws_CO_29112022174000799712321806', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+2022-11-29 17:39:30,196 - INFO -  127.0.0.1 - - [29/Nov/2022 17:39:30] "POST /pay HTTP/1.1" 200 -
